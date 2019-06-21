@@ -1,0 +1,30 @@
+{
+    "name": "scandipwa/images",
+    "description": "ScandiPWA module to add useful image capabilities to the Magento",
+    "keywords": [
+        "magento2",
+        "module",
+        "scandipwa",
+        "pwa"
+    ],
+    "support": {
+        "email": "info@scandiweb.com"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "ScandiPWA\\Images\\": "src/"
+        }
+    },
+    "require": {
+        "magento/product-community-edition": "2.3.1",
+        "gumlet/php-image-resize": "^1.9",
+        "rosell-dk/webp-convert": "^2.1"
+    }
+}
